@@ -1,4 +1,4 @@
-/* Page Styles */
+/* Universal Styles */
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -7,3 +7,27 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 99%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+  position: relative;
+  left: 10px;
+}
+
+span a {
+  color: seashell;
+  padding-left: 15px;
+}
+
+/* Mission */
