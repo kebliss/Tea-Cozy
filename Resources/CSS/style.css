@@ -18,6 +18,7 @@ header {
   position: fixed;
   z-index: 3;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 .logo {
@@ -51,4 +52,77 @@ span a {
 .mission-statement h2,
 .mission-statement h4 {
   margin: 10px;
+}
+
+/* Feature Tea */
+.featured {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+.tea-month {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tea-block img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-block h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Locations */
+.loc-section {
+  width: 1200px;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.locations h2 {
+  margin: 0;
+}
+
+.loc-address {
+  display: flex;
+  justify-content: center;
+}
+
+.location-block {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 20px;
+}
+
+/* Contact */
+.contact {
+  position: relative;
+  top: 150px;
+  height: 200px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  top: 100px;
+  text-align: left;
+  margin-left: 20px;
 }
