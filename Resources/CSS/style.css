@@ -16,6 +16,7 @@ header {
   height: 69px;
   width: 99%;
   position: fixed;
+  z-index: 3;
   border-bottom: 1px solid seashell;
 }
 
@@ -31,3 +32,23 @@ span a {
 }
 
 /* Mission */
+.mission {
+  position: relative;
+  top: 80px;
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+}
+
+.mission-statement {
+  background-color: black;
+  width: 100%;
+}
+
+.mission-statement h2,
+.mission-statement h4 {
+  margin: 10px;
+}
